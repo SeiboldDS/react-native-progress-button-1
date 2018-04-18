@@ -172,7 +172,6 @@ class ProgressButton extends React.Component {
                     width: this.state.progressValue,
                     backgroundColor: progressColor,
                     borderRadius:ProgressButton.isAndroid? innerRadius : 0,
-                    textAlign:'center'
 
                 };
                 return (
